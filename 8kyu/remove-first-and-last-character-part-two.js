@@ -28,7 +28,7 @@
 const array = (arr) => {
   const a = arr.split(/,\s*/);
   if (a.length > 2) {
-    return a.slice(1,-1).join();
+    return a.slice(1, -1).join(' ');
   }
   return null;
 };

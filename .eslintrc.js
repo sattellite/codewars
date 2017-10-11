@@ -11,6 +11,7 @@ module.exports = {
     describe: true,
     it: true,
     expect: true,
+    assert: true,
   },
   rules: {
     'import/extensions': ['error', 'always', { 'js': 'never' }],

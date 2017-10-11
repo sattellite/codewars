@@ -19,9 +19,9 @@
  */
 
 // eslint-disable-next-line no-extend-native, func-names
-Array.prototype.filter = function(fn) {
+Array.prototype.filter = function (fn) {
   if (!fn || typeof fn !== 'function') {
-    throw new TypeError;
+    throw new TypeError();
   }
   const result = [];
 
@@ -35,4 +35,4 @@ Array.prototype.filter = function(fn) {
 };
 
 
- module.exports = Array;
+module.exports = Array;
