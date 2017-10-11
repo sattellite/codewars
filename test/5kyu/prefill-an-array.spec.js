@@ -34,4 +34,8 @@ describe('#5kyu PrefillAnArray', () => {
     }
     expect(val).to.equal('xyz is invalid');
   });
+
+  it('should throw TypeError on float', () => {
+    expect(() => prefill('xyz', 1)).to.throw(TypeError);
+  });
 });

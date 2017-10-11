@@ -48,7 +48,7 @@
 function prefill(n, v) {
   const length = parseInt(n, 10);
 
-  if (Number.isNaN(length) || length < 0) {
+  if (Number.isNaN(length) || length < 0 || n % 1 !== 0) {
     throw new TypeError(`${n} is invalid`);
   }
 
