@@ -47,6 +47,10 @@
  - [Simple Fun #358: Vertical Histogram Of Letters](https://www.codewars.com/kata/59cf0ba5d751dffef300001f)
  - [Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688)
 
+## 4kyu
+
+ - [Next bigger number with the same digits](http://www.codewars.com/kata/next-bigger-number-with-the-same-digits)
+
 ## 2kyu
 
  - [Multi Line Task++: Hello World](https://www.codewars.com/kata/5935558a32fb828aad001213)
